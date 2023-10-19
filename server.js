@@ -2,7 +2,7 @@
 const express = require('express');
 const path = require('path');
 const noteData = require('./db/db.json')
-const uuid = require('uuid')
+const { v4: uuidv4 } = require('uuid')
 
 // Set server port
 const PORT = 3001;
@@ -32,7 +32,7 @@ app.get('/api/notes', (req, res) => {
 app.post('/api/notes', (req, res) => {
     // Log that a note was received
     console.info(`${req.method} request received to add new note`);
-
+    console.log(req.body);
     const { title, text } = req.body;
     // If required properties are present
     if (title && text) {
@@ -40,7 +40,7 @@ app.post('/api/notes', (req, res) => {
         const newNote = {
             title,
             text,
-            id: uuid(),
+            id: uuidv4(),
         };
 
         const response = {
