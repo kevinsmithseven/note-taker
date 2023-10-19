@@ -2,7 +2,7 @@
 const express = require('express');
 const path = require('path');
 const noteData = require('./db/db.json')
-const { readFromFile, readAndAppend } = require('./helpers/fsUtils');
+const { readAndAppend } = require('./helpers/fsUtils');
 const { v4: uuidv4 } = require('uuid')
 
 // Set server port

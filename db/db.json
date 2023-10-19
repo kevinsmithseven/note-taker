@@ -1,13 +1,5 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
-    },
-    {
-        "title": "Test Title2",
-        "text": "Test Text2"
-    },
-    {
         "title": "Do laundry",
         "text": "Sort lights and darks first",
         "id": "27375745-785e-4296-839b-ef25ae339ce0"
@@ -16,5 +8,30 @@
         "title": "Wash car",
         "text": "Don't forget to rinse",
         "id": "46ab03c8-c29f-4aee-a02c-2944c0664b6b"
+    },
+    {
+        "title": "Pay Bills",
+        "text": "Don't forget the electric bill",
+        "id": "465e5217-c6cc-450d-a8cd-c59f85f8e044"
+    },
+    {
+        "title": "Walk the cat",
+        "text": "Use two leashes",
+        "id": "e36c511e-9a49-48fa-a624-5031f89274ad"
+    },
+    {
+        "title": "Water plants",
+        "text": "Don't forget the water",
+        "id": "f6918e2d-7689-4855-b71a-31436851f980"
+    },
+    {
+        "title": "Take a nap",
+        "text": "Take two naps",
+        "id": "ff2805de-2aea-4d3b-81e2-4feab7956d5c"
+    },
+    {
+        "title": "Play a video game",
+        "text": "Set a timer so you don't forget about tutoring",
+        "id": "6ca19f42-69ad-4144-be59-329bfb4c9839"
     }
 ]
