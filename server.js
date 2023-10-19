@@ -2,10 +2,11 @@
 const express = require('express');
 const path = require('path');
 const noteData = require('./db/db.json')
+const { readFromFile, readAndAppend } = require('./helpers/fsUtils');
 const { v4: uuidv4 } = require('uuid')
 
 // Set server port
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 // Import Express framework
 const app = express();
@@ -42,6 +43,8 @@ app.post('/api/notes', (req, res) => {
             text,
             id: uuidv4(),
         };
+
+        readAndAppend(newNote, './db/db.json')
 
         const response = {
             status: 'success',
