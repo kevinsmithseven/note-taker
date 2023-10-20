@@ -8,6 +8,8 @@ This project is an application that allows users add, save and delete notes. Thi
 
 Upon arriving at the landing page, the user will be able to click on the "Get Started" button, which will take them to the page where they can start to enter notes. They can click on the "+" symbol on the top right part of the page and then enter a note title and any desired text. Once entered a save icon will appear next to the "+" symbol, which will save the note once clicked. Once a note is saved, it will appear in the left hand column, and can be clicked on at any time to view. If a user wishes to delete a note, they can click on the trashcan icon to the right of the saved note to do so.
 
+Link to deployed application on Heroku:
+[Note Taker Application](https://salty-sands-14541-496b51c248e5.herokuapp.com/)
 
 Screenshots of the application:
 
