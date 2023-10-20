@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "title": "Test Note 1",
+        "text": "Example text",
+        "id": "7d18281e-ad5b-4caf-84f6-c6718a382b97"
+    },
+    {
+        "title": "Test Note 2",
+        "text": "Example text",
+        "id": "b60549ab-7923-44b2-8ba7-64fe5cda94ee"
+    },
+    {
+        "title": "Test Note 3",
+        "text": "Example text",
+        "id": "706b698d-be48-4cde-b8c8-2380fd5ba41e"
+    }
+]
