@@ -2,7 +2,7 @@
 const express = require('express');
 const routes = require('./routes')
 
-// Set server port
+// Set server port, defaults to 3001
 const PORT = process.env.PORT || 3001;
 
 // Import Express framework
@@ -14,9 +14,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // Enable static file serving
 app.use(express.static('public'));
-
+// Include routes module
 app.use(routes)
-
 
 // Event listener for port
 app.listen(PORT, () =>
