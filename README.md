@@ -24,9 +24,9 @@ Special thanks to Dominique Meeks Gombe, who provided tutoring and guidance to m
 
 In completing this project, I utilized the below resources to assist:
 
-https://expressjs.com/
+https://expressjs.com/  
 https://www.npmjs.com/package/uuid  
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes  
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise  
 
 ## License
