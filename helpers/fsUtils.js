@@ -1,6 +1,9 @@
 const fs = require('fs');
 const util = require('util');
 
+// Promise version of fs.readFile
+const readFromFile = util.promisify(fs.readFile);
+
 // Function to write data to the JSON file given a destination and some content
  
 const writeToFile = (destination, content) =>
@@ -22,4 +25,4 @@ const readAndAppend = (content, file) => {
   });
 };
 
-module.exports = { writeToFile, readAndAppend };
+module.exports = { readFromFile, writeToFile, readAndAppend };
