@@ -6,9 +6,7 @@ const { v4: uuidv4 } = require('uuid');
 notes.get('/', (req, res) => {
     readFromFile('./db/db.json').then((data) => {
         res.json(JSON.parse(data))
-    });
-    // console.info(`GET /api/notes`);
-    // res.status(200).json(noteData)
+    });    
 });
 
 // POST request to add a note
@@ -42,7 +40,7 @@ notes.post('/', (req, res) => {
     };
 });
 
-// Add delete note functionality
+// Delete note based on unique ID
 
 notes.delete('/:id', (req, res) => {
     const notesID = req.params.id;

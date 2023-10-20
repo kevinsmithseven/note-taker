@@ -1,6 +1,5 @@
 // Import required packages/modules
 const express = require('express');
-
 const routes = require('./routes')
 
 // Set server port
@@ -13,7 +12,7 @@ const app = express();
 app.use(express.json());
 // Middleware for urlencoded data
 app.use(express.urlencoded({ extended: true }));
-// enable static file serving
+// Enable static file serving
 app.use(express.static('public'));
 
 app.use(routes)
